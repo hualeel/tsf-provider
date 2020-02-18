@@ -1,0 +1,8 @@
+2020-02-18 00:50:28.549  INFO [tsf-provider,,,] 60341 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'tsfThreadPoolTaskExecutor'
+2020-02-18 00:50:28.640  INFO [tsf-provider,,,] 60341 --- [Thread-28] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'tsfTaskScheduler'
+2020-02-18 00:50:28.646  INFO [tsf-provider,,,] 60341 --- [Thread-28] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'configWatchTaskScheduler'
+2020-02-18 00:50:28.656  INFO [tsf-provider,,,] 60341 --- [Thread-28] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: tsf-provider-18081
+2020-02-18 00:50:28.757  INFO [tsf-provider,,,] 60341 --- [Thread-28] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'catalogWatchTaskScheduler'
+2020-02-18 00:50:28.818  INFO [tsf-provider,,,] 60341 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'tsfInvocationExecutor'
+2020-02-18 00:50:28.820 ERROR [tsf-provider,,,] 60341 --- [tsf-invocation-thread-1] c.t.t.m.i.a.InvocationAggregator         : [TSF Monitor] AggregatorThread : [tsf-invocation-thread-1] Interrupted while sleeping 300ms
+2020-02-18 00:50:28.833  INFO [tsf-provider,,,] 60341 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
