@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class EchoController {
     private static final Logger LOG = LoggerFactory.getLogger(EchoController.class);
 
-//    配置中心
+//   配置中心
     @Autowired
     private ProviderNameConfig providerNameConfig;
 
