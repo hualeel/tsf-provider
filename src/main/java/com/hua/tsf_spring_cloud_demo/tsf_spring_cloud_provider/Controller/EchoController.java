@@ -9,6 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+//API上报
+import io.swagger.annotations.ApiOperation;
+
+
 @RestController
 public class EchoController {
     private static final Logger LOG = LoggerFactory.getLogger(EchoController.class);
@@ -17,6 +21,7 @@ public class EchoController {
     @Autowired
     private ProviderNameConfig providerNameConfig;
 
+    @ApiOperation(value= "/echo/{param}", notes = "provide微服务回显字符串") // notes 对应 API 描述
     @RequestMapping(value = "/echo/{param}", method = RequestMethod.GET)
     public String echo(@PathVariable String param) {
 //         日志
