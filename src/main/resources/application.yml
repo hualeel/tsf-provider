@@ -6,3 +6,7 @@ spring:
 #provider:
 # config:
 #  name: test11111
+
+tsf:
+  swagger:
+    enabled: true
