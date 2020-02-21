@@ -10,3 +10,9 @@ spring:
 tsf:
   swagger:
     enabled: true
+
+
+#  关闭hystrix
+feign:
+ hystrix:
+  enabled: false
