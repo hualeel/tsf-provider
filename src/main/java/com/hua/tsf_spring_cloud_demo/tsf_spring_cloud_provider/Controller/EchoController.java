@@ -29,7 +29,7 @@ public class EchoController {
         LOG.info("tsf-provider-demo -- request param: [" + param + "]");
 
 //        取得application.yml中的值
-        String result = "request param: " + param + ", response from " + providerNameConfig.getName();
+        String result = "Version:1.0" + "<br>" + "Request param: " + param + "<br>" + "Response from:" + providerNameConfig.getName();
 
         LOG.info("tsf-provider-demo -- provider config name: [" + providerNameConfig.getName() + ']');
         LOG.info("tsf-provider-demo -- response info: [" + result + "]");
