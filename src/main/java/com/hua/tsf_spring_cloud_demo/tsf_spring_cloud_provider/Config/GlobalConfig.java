@@ -8,9 +8,9 @@ import org.springframework.stereotype.Component;
 //开启 refresh 机制
 @RefreshScope
 //注解来标明这个类是一个配置类
-@ConfigurationProperties(prefix = "provider.config")
-public class ProviderNameConfig {
-    private String name = "env-test";
+@ConfigurationProperties(prefix = "global.config")
+public class GlobalConfig {
+    private String name = "test1234";
 
     public String getName() {
         return name;
