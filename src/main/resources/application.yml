@@ -6,13 +6,13 @@ spring:
 
 provider:
  config:
-  name: test11111
+  name: Provider-Config-12345678
 
 tsf:
   swagger:
     enabled: true
 
-#  关闭hystrix
+# 关闭hystrix
 feign:
  hystrix:
   enabled: false
@@ -20,4 +20,12 @@ feign:
 #公共自定义配置
 global:
  config:
-  name: 1234567
+  name: Global-Config-12345678
+
+##springboot日志
+#logging:
+# file: /var/root.log
+
+#日志path
+logging:
+  path: /data/tsf_logs
